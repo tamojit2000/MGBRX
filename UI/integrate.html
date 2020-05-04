@@ -1,0 +1,49 @@
+<html>
+	<title>Integrate</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="my_css.css">
+		<script type="text/javascript" src="my_js.js"></script>
+		<script type="text/javascript" src="/eel.js"></script>
+	</head>
+	
+	<body background="Images/integrate.jpg">
+		<button type="button" class="back_btn_css" onclick="goBack()">
+		<h1> <- </h1>
+		</button>
+		
+		<div class="integrate_form">
+			<center>
+			<h2>Enter Equation as f(x)</h2>
+            <h3>
+			  <p>Enter Upper Lower Limit of Definite Integral.</p>
+			  <div style="overflow-x:auto;">
+			  <table cellpadding="5" cellspacing="5" border="0">
+			  <tr>
+              <td><p>Upper Limit</td> <td><input id="upper" type="text" placeholder="Leave empty for indefinite"  /></p></td>
+              </tr>
+			  <tr>
+			  <td><p>Enter Equation</td> <td><input id="function" type="text"  placeholder="f(x)" /></p><td>
+			  </tr>
+			  <tr>
+			  <td><p>Lower Limit</td> <td><input  id="lower" type="text" placeholder="Leave empty for indefinite" /></p></td>
+			  </tr>
+			  </table>
+			  </div>
+			  <br/><br/><br/>
+				<button class="integrate_btn" onclick="integrate_js()">
+				<h1>Integrate</h1>
+				</button>
+			</h3>		
+			</center>
+		
+		</div>
+		
+		<div class="integrate_img">
+			
+			<img src="Images/basic_graph.jpg">
+			
+		</div>
+	
+
+	</body>
+</html>
